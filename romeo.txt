@@ -1,0 +1,27 @@
+move from source to adjacent node and find the shortest single shortest path
+determine shortest from adjacent node
+compare all nodes and choose
+move problem from the source node to the adjacent node
+fringe vertices - vertices that are adjacent to a given vertex in focus
+break ties arbitrarily at random;select any one, no rules
+identify a vertex u from fringe
+move u from fringe to set of tree of shortest path
+for each remaining u fringe vertex pick the one that minimizes the distance
+if smaller than all the distances in du, adjustments have to be made to the distances
+before visiting the nodes are at infinite distances
+Minimum spanning tree
+sum of the cost of the edges is minimised
+go through all vertices
+solved using the Jarnik-Prim algorithm and 
+grow spanning tree by adding one node at a time
+beginning decide the root tree
+minimum cost leaving root is added in every iteration
+priority queue one of the techniques you can use
+visit all nodes once
+edges found added to the MST
+a(-,-) b(a,3) c(-,%) d(-,%) f(a,5) e(a,6)
+b(a,3) f(b,4) d(-,%) 
+c(b,1) 
+f(b,4) 
+e(f,2) 
+d(f,5)
